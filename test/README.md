@@ -10,3 +10,5 @@ Hardware Vendor: Acer
 Hardware Model: Swift SF314-510G
 Firmware Version: V1.12
 ```
+
+`note: i think this project will not work on windows`

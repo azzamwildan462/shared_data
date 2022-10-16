@@ -17,3 +17,10 @@ Run shmem1 and shmem2 in different terminal tab
 cd bin && ./shmem1
 cd bin && ./shmem2
 ```
+
+Or if not using CMakeLists (**not recommended**), you can use `-lshared_data` in compile flag for gcc,  
+example:
+
+```
+gcc [source_code] -lshared_data
+```
