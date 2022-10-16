@@ -9,6 +9,7 @@ set( CMAKE_INSTALL_PREFIX /usr/)
 
 include_directories(${INCLUDE_DIRS})
 
+add_executable(multicast src/multicast.c)
 
 add_library(shared_data SHARED src/shared_data.c)
 set_target_properties(shared_data PROPERTIES PUBLIC_HEADER include/shared_data.h)
