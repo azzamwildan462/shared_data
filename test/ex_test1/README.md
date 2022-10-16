@@ -11,8 +11,9 @@ cmake ..
 make
 ```
 
-Run
+Run shmem1 and shmem2 in different terminal tab
 
 ```
-cd bin && ./ex1
+cd bin && ./shmem1
+cd bin && ./shmem2
 ```
